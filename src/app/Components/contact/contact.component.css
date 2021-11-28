@@ -1,0 +1,9 @@
+.hor-shadow {
+  border-bottom: 1px;
+  width: 140px;
+  height: 1px;
+  background-color: #1c809f;
+  box-shadow: 0px 3px 7px 1px rgb(0 0 0 / 48%);
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

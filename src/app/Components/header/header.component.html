@@ -1,0 +1,108 @@
+<!-- Header-->
+<div class="logo__container">
+  <img src="../../../assets/logo.svg" class="logo" alt="logo">
+</div>
+<header class="masthead d-flex align-items-center">
+  <div class="container px-4 px-lg-5 text-center">
+    <div data-aos="fade-up" data-aos-anchor-placement="bottom-center" data-aos-duration="1500">
+      <h3 class="mb-2">Welcome 😊</h3>
+    </div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <h2 class="mb-3"><em><u>I am <ngtypewriter [StringList]='list' [speed]='1500'></ngtypewriter></u></em>
+      </h2>
+    </div>
+    <a class="btn btn-primary btn-xl" routerLink="/about" routerLinkActive="active"><i class="fas fa-address-card"></i>
+      About me</a>
+  </div>
+</header>
+
+<!-- skill-->
+<section class="content-section bg-light" id="about">
+  <div class="container px-4 px-lg-5 text-center">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-6 p-3">
+        <div>
+          <h2 class="text-secondary text-center text-lg-left mb-4">Skills</h2>
+          <div class="row">
+            <div class="icon-inline" [ngClass]="{'limitIcon': isDisplayMore}">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                height="60" />
+              <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
+                height="60">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"
+                height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                height="60" />
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                height="70" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" height="60" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+                height="70" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                height="70" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" height="60">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg"
+                height="70" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="60" />
+            </div>
+
+            <div class="showmore">
+              <button type="button" class="btn btn-info btn-m" (click)="showIcon()">
+                <i class="bi bi-arrow-bar-down"></i> {{ isDisplayMore ? 'Show more': 'Show Less' }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6  p-3">
+        <div>
+          <h2 class="text-secondary text-center text-lg-left mb-4">Eperiences</h2>
+          <div>
+            <ul class="text-dark text-start fa-ul">
+              <li><span class="fa-li"><i class="fas fa-code"></i></span>Self taught web developer</li>
+              <li><span class="fa-li"><i class="fas fa-code"></i></span>Training course at Becode - Junior Web Developer
+              </li>
+              <li><span class="fa-li"><i class="fas fa-code"></i></span>Intership at Service volontaire international -
+                Php developer & Wordpress developer</li>
+              <li><span class="fa-li"><i class="fas fa-code"></i></span>Over 4 years work with system Administrator -
+                Abu Dhabi (UAE)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer-->
+<footer class="footer text-center">
+  <div class="container px-4 px-lg-5">
+    <ul class="list-inline mb-5">
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white mr-3" href="https://linkedin.com/in/tariq-selawi"><i
+            class="icon-social-linkedin"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/selawi_be"><i
+            class="icon-social-twitter"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+      </li>
+    </ul>
+    <p class="text-muted small mb-0">&copy; Tariq Portfolio 2021</p>
+  </div>
+</footer>

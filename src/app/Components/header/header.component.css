@@ -1,0 +1,29 @@
+.logo__container {
+  position: relative;
+}
+.logo {
+  position: fixed;
+  top: 18px;
+  left: 20px;
+  z-index: 1;
+}
+.icon-inline img {
+  padding: 1%;
+}
+.limitIcon {
+  height: 120px;
+  overflow: hidden;
+}
+
+.showmore {
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  width: 95%;
+}
+.showmore button {
+  border-style: none;
+  font-size: 0.8rem;
+  color: #fff;
+}
