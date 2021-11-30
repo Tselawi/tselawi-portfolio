@@ -47,8 +47,16 @@ export const PERSONALS: Personal[] = [
     id: 6,
     title: 'Supro.',
     technologies: ['HTML5, SCSS, Bootstrap, JavaScript, github'],
-    about: `E-commerce, HTML5, CSS3`,
+    about: `E-commerce`,
     url: `https://tselawi.github.io/project-supro-end/`,
     image: 'assets/supro.png',
+  },
+  {
+    id: 7,
+    title: 'Pets App',
+    technologies: ['Laravel, Php, SCSS, tailwindcss, github, Heroku'],
+    about: `It is an app that you could add, edit, delete your pets`,
+    url: `https://github.com/Tselawi/AnimalApp`,
+    image: 'assets/pets.png',
   },
 ];
